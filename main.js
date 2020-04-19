@@ -69,7 +69,7 @@ const addHtml = (data) => {
 };
 
 // the program
-getStreetData('portage', 'avenue')
+getStreetData('Henlow', 'Bay')
   .then(key => getStopsData(key))
   .then(allStopsArr => getBuses(allStopsArr))
   .then((promisesArr) => {
